@@ -15,9 +15,9 @@ $("#inputAddress").on('keypress',function(){
 
 function createOrder(){
     var data ={
-        'fullName': $('#inputEmail4').val(),
-        'phoneNumber': $('#inputPassword4').val(),
-        'address': $('#inputAddress').val()
+        'fullName': $('#1').val(),
+        'phoneNumber': $('#2').val(),
+        'address': $('#3').val()
     }
     $.ajax({
         url:'http://localhost:5050/api/create-order/',
@@ -35,3 +35,4 @@ function createOrder(){
 // $('#sign_in').click(function () {
 // //     createOrder();
 // //  });
+exports.createOrder=createOrder;

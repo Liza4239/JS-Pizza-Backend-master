@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JS-Pizza-Backend-master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YxRgWK7iAOkTZGatJs5hrQK4MW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +60,9 @@
       <workItem from="1584223067154" duration="21347000" />
       <workItem from="1584478256124" duration="45563000" />
       <workItem from="1584911756564" duration="13197000" />
-      <workItem from="1585303688509" duration="44671000" />
+      <workItem from="1585303688509" duration="53666000" />
+      <workItem from="1586165234914" duration="47991000" />
+      <workItem from="1587299418359" duration="16023000" />
     </task>
     <servers />
   </component>

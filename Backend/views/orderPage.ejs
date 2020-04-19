@@ -38,24 +38,22 @@
 
 <div class="order-grand-container">
     <form>
-        <div class="form-row">
-            <div class="name_label">
-            <div class="form-group col-md-6" >
-                <label for="inputEmail4" >Ім'я</label>
-                <input type="email" class="form-control" id="inputEmail4"placeholder="Ім'я Прізвище">
-            </div>
-            </div>
-            <div class="form-group col-md-6">
-                <label for="inputPassword4">Телефон</label>
-                <input type="password" class="form-control" id="inputPassword4"placeholder="+38073387498474">
-            </div>
-            </div>
-        <div class="form-group">
-            <label for="inputAddress">Адреса</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <div class="form-group" >
+            <label>Ім'я</label>
+            <input  type="text" class="form-control" id="1"  placeholder="Вася Пупкин ">
+            <small id="nameHelp" class="form-text text-muted">Пожалуйста, введите имя правильно.</small>
         </div>
-
-        <button type="button"  class="btn btn-primary" id="sign_in">Sign in</button>
+        <div class="form-group">
+            <label >Телефон</label>
+            <input type="text" class="form-control" id="2" placeholder="Another input placeholder">
+            <small id="numberHelp" class="form-text text-muted">Пожалуйста, введите телефон в формате +380.</small>
+        </div>
+        <div class="form-group">
+            <label >Адреса</label>
+            <input  required type="text" class="form-control" id="3" placeholder="Another input placeholder">
+            <small id="numberEmail" class="form-text text-muted">Пожалуйста, введите электронную почту правильно.</small>
+        </div>
+        <button  type="button" disabled="true"  class="btn btn-primary" id="sign_in">Sign in</button>
     </form>
 </div>
 
@@ -68,7 +66,7 @@
 <!--</iframe>-->
 <div id="information_block">
     <div class="text-info">Інформація про замовлення</div>
-    <div class="average-time-delivery">Приблизний час доставки: </div>
+    <div class="average-time-delivery">Приблизний час доставки: <span id="time_delivery"></span></div>
     <div class="address-delivery">Адреса доставки: <span id="user_address"></span></div>
 </div>
 <!--<div id="liqpay"></div>-->

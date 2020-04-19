@@ -83,7 +83,10 @@ function initialiseCart() {
 
 function getPizzaInCart() {
     //Повертає піци які зберігаються в кошику
+
     return Cart;
+
+
 }
 
 function updateCart() {
@@ -135,7 +138,8 @@ function updateCart() {
         $("#sum").html(sum + " грн");
         $cart.append($node);
         $node.css("display", "none");
-        $node.slideDown();
+        $node.hide().fadeIn(500);
+        //$node.slideDown();
     }
 
     Cart.forEach(showPizzaInCart);
